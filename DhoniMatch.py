@@ -30,7 +30,7 @@ Name:  Kendriya School
 Score: 110
 Overs played: 18
 ...
-# Function to display match details
+
 def display_match_details(team1, score1, overs1, team2, score2, overs2):
     print("Match Details:")
     print("Team 1:")
