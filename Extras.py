@@ -24,21 +24,14 @@ Sample input and output 2:
 17
 
 ...
-# Function to calculate total extras
+
 def extras(no_balls, wides, byes, leg_byes, penalties):
-    # Each type of extra contributes specific runs
     total_extras = (no_balls * 1) + (wides * 1) + (byes * 1) + (leg_byes * 1) + (penalties * 5)
     return total_extras
-
-# Input for extras
 no_balls = int(input())
 wides = int(input())
 byes = int(input())
 leg_byes = int(input())
 penalties = int(input())
-
-# Calculate total extras
 total_extras = extras(no_balls, wides, byes, leg_byes, penalties)
-
-# Output the result
 print(total_extras)
